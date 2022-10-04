@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="186.0" layoutY="14.0" prefHeight="60.0" prefWidth="223.0" text="Breakfast Food Items">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Pane layoutX="10.0" layoutY="80.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/caloriecut/apple.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="450.0" layoutY="275.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/caloriecut/chicken.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="300.0" layoutY="275.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/caloriecut/burger.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="150.0" layoutY="275.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/caloriecut/banana.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="10.0" layoutY="275.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/caloriecut/noodles.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="150.0" layoutY="80.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/caloriecut/pizza.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="450.0" layoutY="80.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/caloriecut/milk.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="300.0" layoutY="80.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/caloriecut/rice.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="46.0" layoutY="180.0" text="Apple" />
+      <Label layoutX="186.0" layoutY="180.0" text="Pizza" />
+      <Label layoutX="338.0" layoutY="180.0" text="Rice" />
+      <Label layoutX="486.0" layoutY="180.0" text="Milk" />
+      <Label layoutX="38.0" layoutY="384.0" text="Noodles" />
+      <Label layoutX="180.0" layoutY="384.0" text="Banana" />
+      <Label layoutX="331.0" layoutY="384.0" text="Burger" />
+      <Label layoutX="488.0" layoutY="384.0" text="Chicken" />
+      <TextField layoutX="46.0" layoutY="217.0" prefHeight="26.0" prefWidth="31.0" />
+      <TextField layoutX="484.0" layoutY="408.0" prefHeight="26.0" prefWidth="31.0" />
+      <TextField layoutX="184.0" layoutY="216.0" prefHeight="26.0" prefWidth="31.0" />
+      <TextField layoutX="334.0" layoutY="408.0" prefHeight="26.0" prefWidth="31.0" />
+      <TextField layoutX="184.0" layoutY="408.0" prefHeight="26.0" prefWidth="31.0" />
+      <TextField layoutX="482.0" layoutY="217.0" prefHeight="26.0" prefWidth="31.0" />
+      <TextField layoutX="334.0" layoutY="217.0" prefHeight="26.0" prefWidth="31.0" />
+      <TextField layoutX="44.0" layoutY="408.0" prefHeight="26.0" prefWidth="31.0" />
+      <Label layoutX="20.0" layoutY="221.0" text="Qtn:" />
+      <Label layoutX="460.0" layoutY="412.0" text="Qtn:" />
+      <Label layoutX="309.0" layoutY="412.0" text="Qtn:" />
+      <Label layoutX="161.0" layoutY="412.0" text="Qtn:" />
+      <Label layoutX="20.0" layoutY="412.0" text="Qtn:" />
+      <Label layoutX="309.0" layoutY="220.0" text="Qtn:" />
+      <Label layoutX="161.0" layoutY="221.0" text="Qtn:" />
+      <Label layoutX="460.0" layoutY="220.0" text="Qtn:" />
+      <Button layoutX="245.0" layoutY="460.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="100.0" text="Save">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
