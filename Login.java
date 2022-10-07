@@ -76,7 +76,7 @@ public class Login extends Application {
                     myConn = DriverManager.getConnection("jdbc:mysql://localhost:330/CalorieCut", "root", "passwordguess22@");
 
                     myStmt = myConn.createStatement();
-                    myRs = myStmt.executeQuery("select * from CalorieCut.consumer where username='" + userTextField.getText() + "' and password='" + pwBox.getText() + "'");
+                    myRs = myStmt.executeQuery("select * from caloriecut.User where Username='" + userTextField.getText() + "' and Password='" + pwBox.getText() + "'");
 
                     if (myRs.next() == false) {
                         actiontarget.setFill(Color.RED);
@@ -106,6 +106,34 @@ stage.show();
 
             }
         });
+        
+        
+        ca.setOnAction(new EventHandler<ActionEvent>() {
+
+            public void handle(ActionEvent e) {
+
+               
+                        
+                        
+                        try{
+                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("create_acc.fxml"));
+Parent root1 = (Parent) fxmlLoader.load();
+Stage stage = new Stage();
+stage.setTitle("CalorieCut");
+stage.setScene(new Scene(root1));  
+stage.show();
+                        }
+                        catch(Exception z){
+                            System.out.println("Could not open window");
+                        }
+
+                        
+                    }
+                    
+
+        });
+        
+        
         Scene scene = new Scene(grid, 400, 350);
         primaryStage.setScene(scene);
         primaryStage.show();

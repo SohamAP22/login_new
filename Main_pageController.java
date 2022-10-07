@@ -57,10 +57,34 @@ stage.show();
 
     @FXML
     private void Action_lunch(ActionEvent event) {
+        try{
+                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Lunch.fxml"));
+Parent root1 = (Parent) fxmlLoader.load();
+Stage stage = new Stage();
+stage.setTitle("CalorieCut");
+stage.setScene(new Scene(root1));  
+stage.show();
+                        }
+                        catch(Exception z){
+                            System.out.println("Could not open window");
+                        }
+
     }
 
     @FXML
     private void Action_dinner(ActionEvent event) {
+        try{
+                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Dinner.fxml"));
+Parent root1 = (Parent) fxmlLoader.load();
+Stage stage = new Stage();
+stage.setTitle("CalorieCut");
+stage.setScene(new Scene(root1));  
+stage.show();
+                        }
+                        catch(Exception z){
+                            System.out.println("Could not open window");
+                        }
+
     }
 
     @FXML
